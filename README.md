@@ -159,9 +159,9 @@ Invalid input is reported in red under the buttons, for example:
 
 ### 1. The lecture example
 
-Classic mode, key `A` (a shift of 0, so the substitution changes nothing), column order `3 4 1 5 2`, row order
-`1 2` (rows unchanged), 1 round. This isolates the column step, and the result matches the lecture
-slide exactly:
+Classic mode, key `A` (a shift of 0, so the substitution changes nothing), column order
+`3 4 1 5 2`, row order `1 2` (rows unchanged), 1 round. This isolates the column step, and the result
+matches the lecture slide exactly:
 
 ```
 Mode
@@ -261,6 +261,10 @@ PASS  classic, key "zz", columns [2 1], rows [2 1], 1 round(s)
 PASS  classic, key "k", columns [3 1 2], rows [2 1], 1 round(s)
 PASS  classic, key "KeyKEY", columns [2 1 3], rows [1 3 2], 2 round(s)
 PASS  case-sensitive, key "LEMON", columns [3 1 4 2], rows [2 1], 1 round(s)
-  ... the same five other cases in case-sensitive mode ...
+PASS  case-sensitive, key "CipherKey", columns [2 3 1], rows [3 1 2], 2 round(s)
+PASS  case-sensitive, key "CSC", columns [4 2 5 1 3], rows [2 3 1], 3 round(s)
+PASS  case-sensitive, key "zz", columns [2 1], rows [2 1], 1 round(s)
+PASS  case-sensitive, key "k", columns [3 1 2], rows [2 1], 1 round(s)
+PASS  case-sensitive, key "KeyKEY", columns [2 1 3], rows [1 3 2], 2 round(s)
 16 of 16 tests passed
 ```

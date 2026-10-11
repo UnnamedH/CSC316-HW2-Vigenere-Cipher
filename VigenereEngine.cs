@@ -48,8 +48,8 @@ namespace CSC316_HW_2
     ///               (lecture, "Permutation Double").
     /// Round order : substitution -> column permutation -> row permutation.
     /// Decryption  : the same steps in reverse order, each one inverted.
-    /// Ciphertext  : exactly as many letters as the plaintext. No padding and no header are added,
-    ///               so the ciphertext is never larger than the message (Shannon's fifth principle).
+    /// Ciphertext  : exactly as many letters as the plaintext. No padding is added, so the
+    ///               ciphertext is never larger than the message (Shannon's fifth principle).
     ///               Everything is a letter, so it can be copied and pasted back safely.
     /// </summary>
     public static class VigenereEngine
