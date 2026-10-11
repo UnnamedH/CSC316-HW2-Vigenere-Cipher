@@ -1,13 +1,13 @@
 # Vigenère Cipher with Row and Column Permutations
 
-CSC316 — Homework #2 · hkelmayan (20231264)
+CSC316 — Homework #2
 
 A Windows Forms application (C#, .NET 8) that encrypts and decrypts text with a Vigenère
 substitution followed by a column permutation and a row permutation, chained over as many rounds as
 you choose. Every intermediate result is shown, and the ciphertext can be copied straight back into
 the program to get the original letters back.
 
-![Encryption](assets/encrypt.png)
+![Encryption](assets/Pic1.png)
 
 ## How to compile and run
 
